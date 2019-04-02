@@ -35,7 +35,7 @@ public class Picverifyaction {
     }
 
     /**
-     * 忘记密码页面校验验证码
+     * 校验验证码
      */
     @RequestMapping(value = "/checkVerify", method = RequestMethod.POST,headers = "Accept=application/json")
     public boolean checkVerify(@RequestParam String verifyInput, HttpSession session) {
